@@ -1,0 +1,28 @@
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+logs
+tmp
+
+.idea*
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.DS_Store
+.settings
+*.ipr
+*.iws
+copyreleases.sh
+javadoc
